@@ -48,6 +48,9 @@
     <TypeScriptCompile Include="Entities\Operator.ts">
       <SubType>Code</SubType>
     </TypeScriptCompile>
+    <TypeScriptCompile Include="Entities\TestEntity.ts">
+      <SubType>Code</SubType>
+    </TypeScriptCompile>
     <TypeScriptCompile Include="Services\DocumentBuilder.ts" />
   </ItemGroup>
   <ItemGroup>
