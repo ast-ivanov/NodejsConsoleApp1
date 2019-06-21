@@ -1,4 +1,3 @@
-//Абстрактный класс
 class BaseEntity {
     constructor(id) {
         this.id = id;
