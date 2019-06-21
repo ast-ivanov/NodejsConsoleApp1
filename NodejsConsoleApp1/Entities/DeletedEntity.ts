@@ -1,4 +1,4 @@
-﻿abstract class DeletedEntity extends BaseEntity {
+﻿abstract class DeletedEntity extends BaseEntity<number> {
 
     protected _deleted: boolean;
 

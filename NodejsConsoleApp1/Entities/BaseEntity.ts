@@ -1,11 +1,11 @@
 ﻿//Абстрактный класс
-abstract class BaseEntity {
+abstract class BaseEntity<T> {
     //Свойство только для чтения
-    readonly id: number;
+    readonly id: T;
 
     readonly createDate: Date;
 
-    constructor(id: number) {
+    constructor(id: T) {
         this.id = id;
         this.createDate = new Date();
     }
