@@ -1,4 +1,4 @@
-﻿class Operator extends BaseEntity {
+﻿class Operator extends BaseEntity<number> {
 
     protected _name: string;
 
